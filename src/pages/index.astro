@@ -1,0 +1,41 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Steaks, easy to cook once you understand them</h1>
+			<p>
+				Steaks may appear daunting at first. They're expensive to buy, so many different cuts of steak, easy to over cook, etc. But, once you understand them they're quite easy to cook and you'll learn what kind of cut you like!
+			</p>
+			<p>
+				If you already know your preferred cut of steak here's a quick way to cook them! If you want more details on different cuts of steak and how to cook them, navigate over to the blog page above!
+				<ol>
+					<li>Grab your steak out of your fridge and let it sit on the counter for about 15 minutes to get to room temperature</li>
+					<li>Grab a stainless steel pan or cast iron pan. You can use non-stick pans but then the steak won't be able to get a good sear on it.</li>
+					<li>You'll want to warm up your pans on medium for about 3-5 minutes depending on your stove.</li>
+					<li>While your pan is heating up, take your steak and season with salt and pepper, be generous with the salt since a lot of it will fall off.</li>
+					<li>Put oil in your pan, if the pan is hot enough the oil will move around like water. But, if the oil begins smoking a lot then the pan is too hot and you'll want to turn off the stove and let the oil cool for a bit.</li>
+					<li>Now that your steak is seasoned and oil is in your pan, put the steak in and gently press down with a pair of tongs to increase surface area touching the pan.</li>
+					<li>Let the steak sear for 2 minutes then flip. You'll repeatedly flip the steak every 2 minutes until cooked to your preference.
+						<ul>
+							<li>I find that thin steaks like flank or skirt only need 4-6 minutes, but thicker steaks like NY strip or Ribeye need about 6-8 minutes.</li>
+						</ul>
+					</li>
+					<li>About half way through your cooking process, you're going to throw in a good chunk of butter to butter baste your steak. You'll do this by letting the butter foam and bubble up and then spoon the butter over the steak.</li>
+					<li>Once you're done cooking the steak, take it off and let it rest on your cutting board for the same amount of time you've cooked it to let it rest. Once done resting cut up your steak and enjoy!</li>
+				</ol>
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>
