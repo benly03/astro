@@ -2,7 +2,7 @@
 title: 'Skirt'
 description: 'use and purpose of skirt'
 pubDate: 'Jul 22 2022'
-heroImage: '../../assets/skirt-steak.jpg'
+heroImage: '../../assets/Skirt-steak.jpg'
 ---
 
 By far my favorite cut of steak is skirt steak. It has a strong beefy flavor low fat content. This makes it a great choice if you are on a diet or wanting to watch out for eating too much fat but still want a good steak.
